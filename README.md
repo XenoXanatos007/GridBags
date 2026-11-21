@@ -27,6 +27,28 @@ Disable **GridList**, **GridPadInventory** and **BankManagerRevived** for initia
 - Delivery overview, failure reasons, history, rule explanations, mouseover help, pause, read-only previews and configuration backups.
 - Exact unique-item arrival reconciliation when the intended recipient already has the item, including duplicate historical delivery records.
 
+## Screenshots
+
+### Backpack and personal bank grids
+
+![Backpack and personal bank grids](docs/screenshots/01-backpack-and-bank.jpg)
+
+### Backpack grid with Advanced Filters
+
+![Backpack grid with Advanced Filters](docs/screenshots/02-backpack-grid.jpg)
+
+### Plan item deliveries and approvals
+
+![Plan item deliveries and approvals](docs/screenshots/03-plan-item-delivery.jpg)
+
+### Crafting overview and profession profiles
+
+![Crafting overview and profession profiles](docs/screenshots/04-crafting-overview.jpg)
+
+### Transfer history and waiting reasons
+
+![Transfer history and waiting reasons](docs/screenshots/05-transfer-history.jpg)
+
 ## Dependencies and compatibility
 
 **No required external libraries.** Optional integrations activate when their addons and required libraries are installed and enabled:
