@@ -1,0 +1,13 @@
+.tools/
+.reference/
+__pycache__/
+*.pyc
+dist/
+SavedVariables/
+*.dmp
+*.log
+docs/*
+!docs/beta-testing.md
+!docs/development.md
+!docs/ESOUI-description.txt
+!docs/beta-release-notes.md
