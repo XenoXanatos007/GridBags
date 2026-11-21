@@ -1,0 +1,38 @@
+[SIZE=4][B]GridBags (Beta) - Keyboard and Mouse Inventory Grids[/B][/SIZE]
+By XenoXanatos
+
+GridBags replaces backpack and personal-bank lists with searchable grids and adds account inventory planning. This is the first public beta of the tested 0.15.3 runtime. Feedback on different characters, setups and addon combinations is welcome.
+
+[B]Features[/B]
+[LIST]
+[*]Backpack grid and side-by-side backpack/bank grids; search, scrolling, tooltips and native item actions.
+[*]Searchable saved character backpack/equipment and account-bank views. Your current character always uses live inventory.
+[*]Advanced Filters inside the grid, with optional Research Assistant, Character Knowledge and CraftStore integration.
+[*]Planned item deliveries through the personal bank: per-stack confirmations, advance approval, limited allowances, repeat rules, protections and Any-source routes.
+[*]Profession profiles and skill-aware suggestions, separate style/trait categories, furniture-material retention and bank overflow routing.
+[*]Gather ingredients for a selected known recipe: review exact needs and proposed sources, exclude unwanted stacks, then explicitly confirm finite deliveries.
+[*]Delivery suggestions for deconstruction/research, saved equipped comparisons, gold display and planned gold policies.
+[*]Transfer history with failure reasons, delivery overview, rule explanations, mouseover help, pause, read-only preview and configuration backups.
+[*]Exact unique-item arrival reconciliation: complete old delivery records when the intended character already has the physical item, without another transfer.
+[/LIST]
+
+[B]Installation[/B]
+Extract the GridBags folder into your ESO live/AddOns directory. Check that AddOns/GridBags/GridBags.txt exists, enable the addon and reload the UI. Open inventory normally or visit a personal banker. Standard view restores ESO's list; its GridBags view button returns to the grid. /gridbags also toggles it.
+
+[B]Dependencies and compatibility[/B]
+No required external libraries. Optional: AdvancedFilters, LibFilters-3.0, LibAddonMenu-2.0, LibCustomMenu, ResearchAssistant, CharacterKnowledge and CraftStoreFixedAndImproved. Install their dependencies separately; libraries are not bundled.
+
+Disable GridList and GridPadInventory for testing. Disable BankManagerRevived before using GridBags planned transfers; two automatic movers should not manage the same bank visit. GridBags refuses route execution while BankManagerRevived is loaded.
+
+[B]Beta notes[/B]
+PC keyboard/mouse, API 101051. New installations include no automatic rules or plans. Inventories and profiles are account/world-specific; nothing is shared between different players' accounts. Offline snapshots plan moves but cannot transfer remotely. Source and recipient characters must visit the personal bank. Housing storage, guild banks and furnishing vault are not routing sources.
+
+Gather supports learned, skill-qualified food/drink/furnishing recipes from the native recipe catalogue. Crafting remains manual. Release the recipe's ingredient hold under Requests / release after crafting. Gear suggestions deliver to the recipient's inventory; they never automatically equip, deconstruct or research.
+
+905 automated mocked behavior checks passed, plus optional addon contract tests. Core flows have been tested in game on the development setup. Wider beta feedback is still needed; compatibility with every addon combination is not guaranteed.
+
+[B]Feedback[/B]
+Please include the GridBags version, steps to reproduce, expected/actual result and relevant reason codes or Lua error. Log > Report creates a redacted troubleshooting report. Review it before posting. Do not upload complete SavedVariables, account identifiers or private inventory screenshots publicly.
+
+[B]Credits / license[/B]
+GridBags by XenoXanatos. MIT license. Thanks to the authors of the optional integrations and ESOUI's API/native UI documentation. No third-party addon or library is bundled or relicensed.
